@@ -1,0 +1,7 @@
+/* Customizations over Bootstrap go here */
+
+body {
+  height: 100%;
+  margin: 4px;
+  /* Add a custom font here */
+}
