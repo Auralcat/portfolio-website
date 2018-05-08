@@ -1,5 +1,10 @@
 /* Customizations over Bootstrap go here */
 
+:root {
+  --primary-color: #ff12ab;
+  --secondary-color: #fff;
+}
+
 body {
   height: 100%;
   margin: 4px;
