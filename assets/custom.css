@@ -55,3 +55,19 @@ footer p {
 .card-box {
   margin: 16px 0;
 }
+
+/* Customize buttons */
+.btn {
+  text-align: left;
+  width: 18rem;
+  margin: 12px 0;
+}
+
+button {
+  background-color: #c0ff33;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #aaa;
+}
