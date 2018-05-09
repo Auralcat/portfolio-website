@@ -15,31 +15,8 @@
 
 <body>
     <header>
-        <div id="navbarHeader" class="collapse-bg-dark">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-8 col-md-7 py-4">
-                        <h4 class="text-white">About</h4>
-                        <p class="text-muted">Add some information about the album below, the author, or any background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
-                    </div>
-                    <div class="col-sm-4 offst-md-1 py-4">
-                        <h4 class="text-white">Contact</h4>
-                        <ul class="list-unstyled">
-                            <li><a href="#">
-                                <button class="btn btn-sm"><i class="fa fa-twitter"></i> @usernamegoeshere</button>
-                            </a></li>
-                            <li><a href="#">
-                                <button class="btn btn-sm"><i class="fa fa-envelope"></i>myemail at site dot com</button>
-                            </a></li>
-                            <li><a href="#">
-                                <button class="btn btn-sm"><i class="fa fa-telegram"></i> @usernamegoeshere</button>
-                            </a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <nav class="navbar navbar-default bg-dark box-shadow">
+        <!-- Main Navbar -->
+        <nav class="navbar navbar-default navbar-fixed-top bg-dark box-shadow">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#">
@@ -56,15 +33,24 @@
         </nav>
     </header>
     <main role="main">
-        <section class="jumbotron text-center">
-            <div class="container">
-                <h1 class="jumbotron-heading">Album example</h1>
-                <p class="lead text-muted">Something short and leading about the collection below-its contents, the creator, etc. Make it short and sweet, but not too short so folks don't simply skip over it entirely.</p>
-                <p>
-                    <a class="btn btn-primary my-2" href="#">Main call to action</a>
-                    <a class="btn btn-secondary my-2" href="#">Secondary call to action</a>
-                </p>
-            </div>
+        <section class="jumbotron">
+            <!-- About Me Section -->
+                <div class="jumbotron-content">
+                    <div class="row">
+                        <div class="col-sm-8 col-md-7">
+                            <h4 class="text-white">About</h4>
+                            <p class="text-muted">Add some information about the album below, the author, or any background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+                        </div>
+                        <div class="col-sm-4 offst-md-1">
+                            <h4 class="text-white">Contact</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#"> <button class="btn btn-sm"><i class="fa fa-twitter"></i> @usernamegoeshere</button> </a></li>
+                                <li><a href="#"> <button class="btn btn-sm"><i class="fa fa-envelope"></i>myemail at site dot com</button> </a></li>
+                                <li><a href="#"> <button class="btn btn-sm"><i class="fa fa-telegram"></i> @usernamegoeshere</button> </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
         </section>
         <section class="album py-5 bg-light">
             <div class="container">
