@@ -128,13 +128,12 @@ button:hover {
 }
 
 .social-media-button {
-  background-color: #faf;
   border-radius: 25%;
   padding: 8px;
 }
 
 .social-media-email {
-  background-color: #fff;
+  background-color: #f0fabc;
   color: #000;
 }
 
