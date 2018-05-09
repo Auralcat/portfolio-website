@@ -72,9 +72,11 @@ button:hover {
   background-color: #aaa;
 }
 
-.card-img-top {
-
+/* Modal customizations */
+.modal-content {
+  width: 80;
 }
+
 /* Change the modal's background color here.
    Default is black. */
 /* .modal-backdrop { */
