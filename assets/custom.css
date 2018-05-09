@@ -129,6 +129,21 @@ button:hover {
 
 .social-media-button {
   background-color: #faf;
-  border-right: 8px;
-  padding: 16px;
+  border-radius: 25%;
+  padding: 8px;
+}
+
+.social-media-email {
+  background-color: #fff;
+  color: #000;
+}
+
+.social-media-telegram {
+  background-color: #32a9df;
+  color: #f0f7fc;
+}
+
+.social-media-twitter {
+  background-color: #1da1f2;
+  color: #fff;
 }
