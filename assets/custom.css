@@ -82,10 +82,11 @@ button:hover {
   background-color: #b4d455;
   border-radius: 4px;
   display: flex;
-  justify-content: center;
-  width: 32px;
   height: 32px;
+  justify-content: center;
+  margin-left: auto;            /* Throw this to the right! */
   position: relative;
+  width: 32px;
 }
 
 .modal-img {
