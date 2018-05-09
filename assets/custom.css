@@ -93,6 +93,13 @@ button:hover {
   margin-top: -32px;
 }
 
+.modal-visit-website-button {
+  display: block;
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 /* Change the modal's background color here.
    Default is black. */
 /* .modal-backdrop { */
