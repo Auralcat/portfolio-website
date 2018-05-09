@@ -65,7 +65,11 @@ footer p {
 .card-thumbnail:hover {
   color: #000;
   text-decoration: none;
+}
 
+/* Add more space to bottom, center text inside card */
+.card-body {
+  padding: 8px;
 }
 
 /* ----- */
