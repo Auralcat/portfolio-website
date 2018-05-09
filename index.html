@@ -16,14 +16,23 @@
 <body>
     <header>
         <!-- Main Navbar -->
-        <nav class="navbar navbar-default box-shadow">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="">Link 1</a></li>
-                <li><a href="">Link 2</a></li>
-                <li><a href="">Link 3</a></li>
-                <li><a href="">Link 4</a></li>
-            </ul>
-            <a class="navbar-brand" href="#"><strong>Your Name Here</strong></a>
+        <nav class="navbar navbar-default navbar-fixed-top box-shadow">
+            <div class="container">
+                <a class="navbar-brand" href="#"><strong>Your Name Here</strong></a>
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#navHeaderCollapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div id="navHeaderCollapse" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="">Link 1</a></li>
+                        <li><a href="">Link 2</a></li>
+                        <li><a href="">Link 3</a></li>
+                        <li><a href="">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main role="main">
