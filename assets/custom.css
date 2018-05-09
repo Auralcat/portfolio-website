@@ -80,16 +80,16 @@ button:hover {
 
 .modal-close-button-container {
   background-color: #b4d455;
-  border-radius: 2px;
+  border-radius: 4px;
   display: flex;
-  height: 40px;
   justify-content: center;
-  width: 40px;
+  width: 32px;
+  height: 32px;
   position: relative;
 }
 
 .modal-img {
-  margin-top: -40px;
+  margin-top: -32px;
 }
 
 /* Change the modal's background color here.
