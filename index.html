@@ -13,7 +13,7 @@
     <title>Portfolio website</title>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset=50>
     <header>
         <!-- Main Navbar -->
         <nav class="navbar navbar-default navbar-fixed-top box-shadow">
@@ -26,8 +26,8 @@
                 </button>
                 <div id="navHeaderCollapse" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav">
-                        <li><a href="">Link 1</a></li>
-                        <li><a href="">Link 2</a></li>
+                        <li><a href="#aboutMe">About Me</a></li>
+                        <li><a href="#portfolioAlbum">Portfolio</a></li>
                         <li><a href="">Link 3</a></li>
                         <li><a href="">Link 4</a></li>
                     </ul>
@@ -36,7 +36,7 @@
         </nav>
     </header>
     <main role="main">
-        <section class="jumbotron">
+        <section class="jumbotron" id="aboutMe">
             <!-- About Me Section -->
                 <div class="jumbotron-content">
                     <div class="container-fluid">
@@ -56,7 +56,7 @@
                     </div></div>
                 </div>
         </section>
-        <section class="album py-5 bg-light">
+        <section id="portfolioAlbum" class="album py-5 bg-light">
             <div class="container">
                 <div class="row">
                     <div class="col-md-4 card-box">
