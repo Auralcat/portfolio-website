@@ -70,6 +70,40 @@ footer p {
 }
 
 /* ----- */
+/* Card slide overlay */
+.overlay-container {
+  position: relative;
+  width: 50%;
+}
+
+.overlay-container:hover .overlay {
+  width: 100%;
+}
+
+.overlay {
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: #008cba;
+  overflow: hidden;
+  width: 0px;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.overlay-text {
+  color: #fff;
+  font-size: 20px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+
+/* ------------------ */
 
 /* Customize buttons */
 .btn {
