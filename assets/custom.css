@@ -74,9 +74,14 @@ button:hover {
 
 /* Modal customizations */
 .modal-content {
-  width: 80;
+  margin: auto;
+  width: 80px;
 }
 
+.modal-close-button-container {
+  background-color: #b4d455;
+  border-radius: 2px;
+}
 /* Change the modal's background color here.
    Default is black. */
 /* .modal-backdrop { */
