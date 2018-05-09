@@ -1,29 +1,36 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Modal Design</title>
-        <!-- FontAwesome -->
-        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
-        <!-- Bootstrap -->
-        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
-        <!-- Custom CSS file -->
-        <link href="assets/custom.css" rel="stylesheet" />
-    </head>
-    <body>
-        <!-- Splitting the modal design -->
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Design</title>
+    <!-- FontAwesome -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- Bootstrap -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom CSS file -->
+    <link href="assets/custom.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- Splitting the modal design -->
     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Open Modal</button>
     <!-- The modal -->
     <div id="myModal" class="modal">
         <div class="modal-dialog">
             <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-close-button-container">
+                        <button class="close" data-dismiss="modal" type="button">&times;</button>
+                    </div>
+                    <div class="card-img-container">
+                        <img class="img-rounded modal-img" alt="Rickrolled" src="assets/img/astley.jpeg" />
+                    </div>
+                </div>
                 <!-- Modal body -->
                 <div class="modal-body">
                     <div class="card">
-                        <div class="card-img-container">
-                            <img class="img-rounded modal-img" alt="Rickrolled" src="assets/img/astley.jpeg"/>
-                        </div>
                         <div class="card-body">
                             <h4 class="card-title">Project Title</h4>
                             <p class="card-text">Snaps candy powder apple bears beans toffee cheesecake jujubes gingerbread marshmallow. Canes claw apple beans bar cake tart roll toffee jelly-o caramels. Fruitcake danish tiramisu cookie drops canes jelly powder claw. Dragée bear jujubes cheesecake danish roll tiramisu toffee cookie sesame. Cookie caramels oat chupa chups powder beans lemon dragée. Gingerbread jelly dragée chupa chups lollipop snaps beans gummi. Tiramisu soufflé dragée pastry toffee danish lemon jelly cookie oat fruitcake.</p>
@@ -34,9 +41,10 @@
             </div>
         </div>
     </div>
-    </body>
-    <!-- jQuery -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <!-- Bootstrap JS component -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+<!-- jQuery -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<!-- Bootstrap JS component -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </html>
