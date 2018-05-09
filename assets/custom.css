@@ -51,10 +51,24 @@ footer p {
   box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }
 
+/* CARDS */
 /* Space those cards */
 .card-box {
   margin: 16px 0;
 }
+
+/* Remove link markings from thumbnail */
+.card-thumbnail {
+  color: #000;
+}
+
+.card-thumbnail:hover {
+  color: #000;
+  text-decoration: none;
+
+}
+
+/* ----- */
 
 /* Customize buttons */
 .btn {
