@@ -18,7 +18,15 @@ img {
   width: 100%;
 }
 
-/* Variables */
+.navbar-custom {
+  background-color: #5a14f4;
+}
+
+.nav.navbar-nav li a,
+.navbar-brand strong {
+  color: #fff;
+}
+
 .jumbotron {
   background-color: #fff;
   margin-bottom: 0;
