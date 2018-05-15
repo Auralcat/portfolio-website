@@ -95,10 +95,6 @@ footer p {
   width: 18rem;
   margin: 4px 0; }
 
-button {
-  background-color: #96f48b;
-  color: #fff; }
-
 button:hover {
   background-color: #aaa; }
 
@@ -3060,31 +3056,31 @@ a.btn.disabled, fieldset[disabled] a.btn {
 
 .btn-default {
   color: #333;
-  background-color: #fff;
-  border-color: #ccc; }
+  background-color: #96f48b;
+  border-color: #81f274; }
   .btn-default:focus, .btn-default.focus {
     color: #333;
-    background-color: #e6e6e6;
-    border-color: #8c8c8c; }
+    background-color: #6cf05c;
+    border-color: #28d214; }
   .btn-default:hover {
     color: #333;
-    background-color: #e6e6e6;
-    border-color: #adadad; }
+    background-color: #6cf05c;
+    border-color: #4eec3c; }
   .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
     color: #333;
-    background-color: #e6e6e6;
-    border-color: #adadad; }
+    background-color: #6cf05c;
+    border-color: #4eec3c; }
     .btn-default:active:hover, .btn-default:active:focus, .btn-default:active.focus, .btn-default.active:hover, .btn-default.active:focus, .btn-default.active.focus, .open > .btn-default.dropdown-toggle:hover, .open > .btn-default.dropdown-toggle:focus, .open > .btn-default.dropdown-toggle.focus {
       color: #333;
-      background-color: #d4d4d4;
-      border-color: #8c8c8c; }
+      background-color: #4eec3c;
+      border-color: #28d214; }
   .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
     background-image: none; }
   .btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled.focus, .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled].focus, fieldset[disabled] .btn-default:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default.focus {
-    background-color: #fff;
-    border-color: #ccc; }
+    background-color: #96f48b;
+    border-color: #81f274; }
   .btn-default .badge {
-    color: #fff;
+    color: #96f48b;
     background-color: #333; }
 
 .btn-primary {

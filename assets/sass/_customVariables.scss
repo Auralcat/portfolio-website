@@ -4,7 +4,8 @@ $bootstrap-sass-asset-helper: false !default;
 // --------------------------------------------------
 
 /* Define your custom variables here: */
-$myNavbarBg:             #2f0372;
+$my-navbar-bg:             #2f0372;
+$my-btn-bg:             #96f48b;
 
 //== Colors
 //
@@ -152,8 +153,8 @@ $table-border-color:            #ddd !default;
 $btn-font-weight:                normal !default;
 
 $btn-default-color:              #333 !default;
-$btn-default-bg:                 #fff !default;
-$btn-default-border:             #ccc !default;
+$btn-default-bg:                 $my-btn-bg !default;
+$btn-default-border:             darken($my-btn-bg, 5%) !default;
 
 $btn-primary-color:              #fff !default;
 $btn-primary-bg:                 $brand-primary !default;
