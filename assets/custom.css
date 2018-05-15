@@ -29,6 +29,12 @@ img {
   color: #fff;
 }
 
+/* Scrollspy active section color */
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background-color: #daa520;
+}
 /* Animation when clicking on the navbar link */
 
 .jumbotron {
