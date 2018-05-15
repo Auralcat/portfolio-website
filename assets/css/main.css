@@ -1,4 +1,181 @@
 @charset "UTF-8";
+/* Customizations over Bootstrap go here */
+/* Palette colors:
+    - #f9f2ae
+    - #e5dd67
+    - #f9a695
+    - #96f48b
+    - #2f0372
+ */
+body {
+  height: 100%;
+  margin: 4px;
+  /* Add a custom font here */ }
+
+/* Tame the images! */
+img {
+  min-height: 100%;
+  min-width: 100%;
+  width: 100%; }
+
+.navbar-custom {
+  background-color: #2f0372; }
+
+.nav.navbar-nav li a,
+.navbar-brand strong {
+  color: #fff; }
+
+/* Scrollspy active section color */
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background-color: #daa520; }
+
+/* Animation when clicking on the navbar link */
+.jumbotron {
+  background-color: #fff;
+  margin-bottom: 0;
+  margin-top: 64px;
+  padding-bottom: 3rem;
+  padding-top: 3rem; }
+
+.jumbotron p:last-child {
+  margin-bottom: 0; }
+
+.jumbotron-heading {
+  font-weight: 300; }
+
+footer {
+  padding-bottom: 3rem;
+  padding-top: 3rem; }
+
+footer p {
+  margin-bottom: .25rem; }
+
+.box-shadow {
+  box-shadow: 0.25rem 0.5rem 0.75rem rgba(0, 0, 0, 0.25); }
+
+/* CARDS */
+/* Space those cards */
+.card-box {
+  margin: 16px 0; }
+
+/* Remove link markings from thumbnail */
+.card-thumbnail {
+  color: #000; }
+
+.card-thumbnail:hover {
+  color: #000;
+  text-decoration: none; }
+
+/* Add more space to bottom, center text inside card */
+.card-body {
+  padding: 8px; }
+
+/* ----- */
+/* Card slide overlay */
+.overlay-container {
+  position: relative;
+  width: 50%; }
+
+.overlay-container:hover .overlay {
+  width: 100%; }
+
+.overlay {
+  position: relative;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: #008cba;
+  overflow: hidden;
+  width: 0px;
+  height: 100%;
+  transition: .5s ease; }
+
+.overlay-text {
+  color: #fff;
+  font-size: 20px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  white-space: nowrap; }
+
+/* ------------------ */
+/* Customize buttons */
+.btn {
+  text-align: left;
+  width: 18rem;
+  margin: 4px 0; }
+
+button {
+  background-color: #96f48b;
+  color: #fff; }
+
+button:hover {
+  background-color: #aaa; }
+
+/* Modal customizations */
+.modal-content {
+  margin: auto;
+  width: 80%; }
+
+.modal-close-button-container {
+  background-color: #f9a695;
+  border-radius: 4px;
+  display: flex;
+  height: 32px;
+  justify-content: center;
+  margin-left: auto;
+  /* Throw this to the right! */
+  position: relative;
+  width: 32px; }
+
+.modal-img {
+  margin-top: -32px; }
+
+.modal-visit-website-button {
+  display: block;
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* Change the modal's background color here.
+   Default is black. */
+/* .modal-backdrop { */
+/*   background-color: #fff; */
+/* } */
+.social-media-list {
+  display: flex;
+  justify-content: space-between;
+  width: 14%; }
+
+.social-media-button {
+  border-radius: 25%;
+  border: 1px solid transparent;
+  transition: 0.3s; }
+
+.social-media-button:hover {
+  transition: 0.3s; }
+
+.social-media-email {
+  background-color: #f0fabc;
+  color: #000; }
+
+.social-media-telegram {
+  background-color: #32a9df;
+  color: #f0f7fc; }
+
+.social-media-twitter {
+  background-color: #1da1f2;
+  color: #fff; }
+
+.social-media-github {
+  background-color: #222;
+  color: #fff; }
+
+/* Define your custom variables here: */
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
